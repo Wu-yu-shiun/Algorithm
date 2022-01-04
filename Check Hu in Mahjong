@@ -10,7 +10,7 @@ namespace Test
 {
     class Program
     {
-        public static bool findHu = false;
+        public static bool findHu;
         public static void FindSolution(List<int> checkList)
         {
             if (!checkList.Any())
@@ -44,6 +44,7 @@ namespace Test
         {
             while (true)
             {
+                findHu=false;
                 Console.Write("輸入手牌代號(1-9為萬,11-19為筒,21-29條,31-37為東西南北中發白,總數3n+2,以逗號區隔):");
                 string input = Console.ReadLine();
                 string[] str = input.Split(',');
