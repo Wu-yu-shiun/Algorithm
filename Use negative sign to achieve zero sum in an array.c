@@ -17,6 +17,18 @@ bool check(int* nums,int numsSize,int target){
     return dp[numsSize][target];
 }
 
+//動態規劃優化版(space:O(n))
+// bool check(int* nums,int numsSize,int target){
+//     bool dp[target+1];
+//     memset(dp,false,sizeof(bool)*(target+1));
+//     dp[0]=true;
+//     for(int i=0;i<numsSize;++i){
+//         for(int j=target;j>=nums[i];--j)
+//             dp[j]=dp[j]||dp[j-nums[i]];
+//     }
+//     return dp[target];
+// }
+
 void revise(int *nums,int numsSize){
     nums=(int*)realloc(nums, sizeof(int)*(numsSize+1));
     numsSize++;
