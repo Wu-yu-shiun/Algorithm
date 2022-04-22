@@ -1,3 +1,7 @@
+//Question
+//You are given a positive integer array "arr",you should choose whether to treat it as a negative integer,that is,put a negative sign in front of it.
+//Find out the minimum distance 0 and sum of "arr".
+
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
