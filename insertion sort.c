@@ -1,4 +1,4 @@
-// insert one by one in an array (brute force?)
+// insert one by one in an array or linked-list (brute force?)
 // avg:O(n^2) best:O(n) worst:O(n^2)
 // adaptive stable
 
