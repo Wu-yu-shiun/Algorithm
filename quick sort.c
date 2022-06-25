@@ -1,4 +1,5 @@
-// divide and conquer
+// divide and conquer 
+// 先確立該array第一個元素的正確位置，再將該元素的兩邊畫分成兩subarray繼續重複做
 // avg:O(nlogn), worst:(O^2)
 
 void print(int* arr, int size){
@@ -17,11 +18,10 @@ void quick_sort(int* arr, int size, int start, int end){
     
     int i=start, j=end; //雙指針:i從最左開始，j從最右開始
     //將第一個元素定為標準，i找比標準大的項目，j找比標準小的項目
-    //找到後，i,j的元素swap，重複做，直到i,j相遇，相遇後，tandard,ij相遇位置元素swap
-    //注意！j--,i++兩行不能互換位置，否則會影響到i,j相遇時的位置，導致swap出錯
+    //找到後，i和j的元素swap，重複做，直到i,j相遇，相遇後，標準(第一個元素)和和ij相遇位置元素swap
     while(i<j){
         while(arr[j]>=arr[start] && i<j) j--;
-        while(arr[i]<=arr[start] && i<j) i++;
+        while(arr[i]<=arr[start] && i<j) i++; //注意！j--,i++兩行不能互換位置，否則會影響到i,j相遇時的位置，導致swap出錯
         if(i<j) swap(&arr[i],&arr[j]);
     }
     swap(&arr[start],&arr[i]);
