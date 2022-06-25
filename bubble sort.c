@@ -1,4 +1,4 @@
-// sort one by one (brute force?)
+// bubble the smallest element out to head one by one, by swapping each adjacent nodes from tail to head if their order is wrong
 // avg:O(n^2) best:O(n) worst:O(n^2)
 // adaptive stable
 
