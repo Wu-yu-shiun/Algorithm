@@ -1,6 +1,8 @@
 // divide and conquer 
 // 先確立該array第一個元素的正確位置，再將該元素的兩邊畫分成兩subarray繼續重複做
-// avg:O(nlogn), worst:(O^2)
+// avg:O(nlogn), best:O(nlogn) => 能精準切成兩半時 , worst:(O^2) => 切下去一邊一直都只剩一個(ex:already sorted array, and standard use first element)
+// space:O(nlogn)
+// not adaptive, not stable
 
 void print(int* arr, int size){
     for(int i=0;i<size;++i) printf("%d ",arr[i]);
