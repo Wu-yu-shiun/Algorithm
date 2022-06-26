@@ -1,6 +1,6 @@
 // hash table
 // time complexity -- avg:O(n+k) best:O(n+k) worst:O(n+k)
-// space complexity -- O(k)  k depends on the element max to min range (hash table size)
+// space complexity -- O(k) => k depends on the element max to min range (hash table size) 適合給給定一定範圍的的陣列做排序
 // not adaptive, not stable
 
 #include <stdio.h>
