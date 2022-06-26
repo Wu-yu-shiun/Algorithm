@@ -1,7 +1,7 @@
 // divide and conquer
 // merge two sorted array to one sorted array
-// avg:O(nlogn) best:O(nlogn) worst:O(nlogn)
-// space:O(n)  => from extra array:O(n) + recursion stack:O(logn) = O(n)
+// time complexity -- avg:O(nlogn) best:O(nlogn) worst:O(nlogn)
+// space complexity -- O(n)  => from extra array:O(n) + recursion stack:O(logn) = O(n)
 // not adaptive, stable
 
 #include <stdio.h>
