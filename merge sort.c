@@ -1,4 +1,5 @@
-// divide and conquer, merge two sorted array to one sorted array
+// divide and conquer
+// merge two sorted array to one sorted array
 // avg:O(nlogn) best:O(nlogn) worst:O(nlogn)
 // space:O(n)  => from extra array:O(n) + recursion stack:O(logn) = O(n)
 // not adaptive, stable
