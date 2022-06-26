@@ -1,6 +1,7 @@
 // insert the element to sorted array(linked-list) one by one from original array(linked-list)
-// avg:O(n^2) best:O(n) worst:O(n^2)
-// adaptive stable
+// time complexity -- avg:O(n^2) best:O(n) worst:O(n^2)
+// space complexity -- O(1)
+// adaptive, stable
 
 #include <stdio.h>
 #include <stdlib.h>
