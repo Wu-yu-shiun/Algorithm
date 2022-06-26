@@ -1,5 +1,8 @@
-// create and delete max heap
-// avg:O(nlogn)
+// heap data structure
+// create max heap, and get largest number by deleting root node one by one
+// time complexity -- avg:O(nlogn) best:O(nlogn) worst:O(nlogn)
+// space complexity -- O(1)
+// not adaptive, not stable
 
 #include <stdio.h>
 #include <stdlib.h>
