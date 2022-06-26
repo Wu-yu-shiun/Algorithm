@@ -1,5 +1,6 @@
 // select the smallest element from original array to sorted array one by one
-// avg:O(n^2) best:O(n^2) worst:O(n^2)
+// time complexity -- avg:O(n^2) best:O(n^2) worst:O(n^2)
+// space complexity -- O(1)
 // not adaptive, not stable
 
 #include <stdio.h>
