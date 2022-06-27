@@ -4,6 +4,9 @@
 // space complexity -- O(nlogn) => from recursion stack
 // not adaptive, not stable
 
+#include <stdio.h>
+#include <stdlib.h>
+
 void print(int* arr, int size){
     for(int i=0;i<size;++i) printf("%d ",arr[i]);
     printf("\n");
