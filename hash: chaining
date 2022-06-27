@@ -52,7 +52,7 @@ struct Node** search(struct Node** p, int i, int key){
 
 //------------------------------------------------------------
 
-//chaining => 用mod的放式將輸入的element做分類，並將同一類組的人已排序的方式用linked-list串接
+//chaining => 用hash function output的值做分類，並將使用同格的元素以排序的方式用linked-list串接
 
 #include <stdio.h>
 #include <stdlib.h>
