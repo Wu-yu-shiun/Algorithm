@@ -1,6 +1,6 @@
 // Prim's algorithm => 找最小生成樹(MST)
 // time complexity -- O(n^2), if heap is used => O(nlogn)
-// 先選出一個最短路徑，再由此延伸出其他的路徑 (application of greedy method)
+// 先選出一個最短edge，再由此延伸出其他的edge (application of greedy method)
 
 #include <stdio.h>
 #include <stdlib.h>
