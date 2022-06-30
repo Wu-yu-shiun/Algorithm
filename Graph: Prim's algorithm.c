@@ -67,9 +67,9 @@ void Prim_MST(int matrix[V+1][V+1]){
     printf("edges:\n");
     int sum=0;
     for(int i=0;i<V-1;++i){
-        int temp=matrix[result[i][0]][result[i][1]];
-        printf("[%d] --- [%d]: %d\n",result[i][0],result[i][1],temp);
-        sum+=temp;
+        int v1=result[i][0], v2=result[i][1];
+        printf("[%d] --- [%d]: %d\n",v1,v2,list[v1][v2]);
+        sum+=list[v1][v2];
     }
     printf("sum: %d",sum);
 }
